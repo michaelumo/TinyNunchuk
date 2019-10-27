@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 #include <TinyWireM.h>
 SoftwareSerial mySerial(4, 1); // RX, TX
-#include "Nunchuk.h"
+#include "TinyNunchuk.h"
 
 
 void setup() {
